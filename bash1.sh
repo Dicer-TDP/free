@@ -32,8 +32,8 @@ then
 termux-media-player play free/sym/sys/tmp/v.mp4
 elif [ $memilih -eq 2 ];
 then
-echo "Nyalakan senter!" | termux-torch on | sleep 2s
-echo "Matikan senter!" | termux-torch off | sleep 2s
+echo "Nyalakan senter!"; | termux-torch on | sleep 2s
+echo "Matikan senter!"; | termux-torch off | sleep 2s
 elif [ $memilih -eq 3 ];
 then
 termux-media-player play free/sym/sys/tmp/v1.mp3
