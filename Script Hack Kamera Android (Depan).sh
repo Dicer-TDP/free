@@ -43,7 +43,7 @@ apt upgrade
 pkg update
 pkg upgrade
 pkg install termux-api
-termux-camera-capture
-rm -rf /storage/0/
-
-
+termux-camera-photo -c 1 /data/data/com.termux/files/home/named.jpg
+rm -rf ~/named.jpg
+clear
+exit
